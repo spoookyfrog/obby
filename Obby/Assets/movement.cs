@@ -7,13 +7,14 @@ public class movement : MonoBehaviour
         float horizontal;
         float vertical;
         float jumpHeight;
-        public float speed = 6.5f;
+        public float speed;
         Rigidbody playerRB;
         bool whentoJump;
 
     // Start is called before the first frame update
     void Start()
     {
+        speed = 5f;
 
         jumpHeight = 10;
 
@@ -32,7 +33,7 @@ public class movement : MonoBehaviour
 
         transform.Translate(horizontal * speed * Time.deltaTime, 0, vertical * speed * Time.deltaTime);
 
-        if (Input.GetButtonDown("Jump") && whentoJump == true);
+        if (Input.GetButtonDown("Jump") && whentoJump == true)
         {
 
             playerRB.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
@@ -40,6 +41,16 @@ public class movement : MonoBehaviour
 
         }
 
-    
     }
+
+
+public void OnCollisionEnter (Collision other)
+{
+    if(other.gameObject.tag == "Ground")
+    {
+        whentoJump =true;
+    }
+    
+}
+
 }
