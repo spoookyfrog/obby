@@ -37,6 +37,7 @@ public class movement : MonoBehaviour
         {
 
             playerRB.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
+
             whentoJump = false;
 
         }
