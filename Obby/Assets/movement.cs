@@ -14,9 +14,9 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 5f;
+        speed = 6.5f;
 
-        jumpHeight = 10;
+        jumpHeight = 6;
 
         playerRB = GetComponent<Rigidbody>();
 
