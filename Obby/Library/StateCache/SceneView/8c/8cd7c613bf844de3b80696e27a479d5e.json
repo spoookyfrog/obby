@@ -1,1 +1,13 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":122.50765991210938,"y":-170.4942169189453,"z":2.3240203857421877},"rotation":{"x":0.49904510378837588,"y":0.2531983256340027,"z":-0.15515919029712678,"w":0.8141279220581055},"size":96.84764099121094,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":false,"pivot":{"x":141.8116912841797,"y":-84.79719543457031,"z":-29.136608123779298},"rotation":{"x":0.24200235307216645,"y":0.36826613545417788,"z":-0.09990066289901734,"w":0.8920970559120178},"size":53.49614715576172,"orthographic":true}
+>>>>>>> Stashed changes
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":false,"pivot":{"x":117.00171661376953,"y":-61.36717987060547,"z":-41.75197982788086},"rotation":{"x":0.5308681726455689,"y":0.4670133590698242,"z":-0.5315078496932983,"w":0.46645137667655947},"size":153.84365844726563,"orthographic":true}
+>>>>>>> parent of abd79ba (added lots of new things haha)
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":86.80000305175781,"y":-78.0,"z":-29.5},"rotation":{"x":0.47728270292282107,"y":0.521371066570282,"z":-0.47357645630836489,"w":0.5254513025283814},"size":100.70719146728516,"orthographic":true}
+>>>>>>> parent of ac687d7 (added stage 2)

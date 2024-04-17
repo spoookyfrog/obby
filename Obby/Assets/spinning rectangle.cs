@@ -13,6 +13,10 @@ public class spinningrectangle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate (0 , .23F , 0 * Time.deltaTime);
+<<<<<<< HEAD
+        transform.Rotate (0 , .5f , 0 * Time.deltaTime);
+=======
+        transform.Rotate (0 , 1 , 0 * Time.deltaTime);
+>>>>>>> parent of abd79ba (added lots of new things haha)
     }
 }

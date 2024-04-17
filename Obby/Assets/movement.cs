@@ -7,7 +7,6 @@ public class movement : MonoBehaviour
         float horizontal;
         float vertical;
         float jumpHeight;
-         public float gravityScale = 1;
         public float speed;
         Rigidbody playerRB;
         bool whentoJump;
@@ -15,9 +14,9 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 11.5f;
+        speed = 5f;
 
-        jumpHeight = 25f;
+        jumpHeight = 10;
 
         playerRB = GetComponent<Rigidbody>();
 
@@ -28,7 +27,6 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
         horizontal = Input.GetAxis("Horizontal");
 
         vertical = Input.GetAxis("Vertical");
@@ -46,6 +44,7 @@ public class movement : MonoBehaviour
 
     }
 
+
 public void OnCollisionEnter (Collision other)
 {
     if(other.gameObject.tag == "Ground")
@@ -54,8 +53,10 @@ public void OnCollisionEnter (Collision other)
     }
     
 }
-private void FixedUpdate()
-{
-    playerRB.AddForce(Physics.gravity * (gravityScale - 1) * playerRB.mass);
+
 }
+<<<<<<< HEAD
+
 }
+=======
+>>>>>>> parent of abd79ba (added lots of new things haha)
